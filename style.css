@@ -6,6 +6,12 @@
     margin-left: 12vh;
 }
 
+.qst1,.qst2,.qst3,.qst4,
+.qst5,.qst6,.qst7,.qst8,
+.qst9,.qst10 {
+    display: none;
+}
+
 main {
     display:grid;
     justify-content: center;
