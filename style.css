@@ -27,3 +27,31 @@ main {
      margin-top: 1.5vh;
      cursor: pointer;
 }
+
+
+.answer:hover {
+    background-color: rgb(95, 95, 95);
+}
+
+
+.answer {
+    padding: 2vh;
+    margin-bottom: 2vh;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: rgb(185, 182, 182);
+    font-size: 16px;
+}
+
+.next {
+     display: none;
+     width: 15vh;
+     height: 5vh;
+     margin:  0 auto;
+     margin-top: 1.5vh;
+     padding-top: 1vh;
+     cursor: pointer;
+     text-align: center;
+     font-size: 16px;    
+}
