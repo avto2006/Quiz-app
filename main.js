@@ -19,6 +19,9 @@ const right4 = document.querySelector('.right4')
 const right5 = document.querySelector('.right5')
 
 
+
+
+
 const fallse1 = document.querySelector('.false1')
 const fallse2 = document.querySelector('.false2')
 const fallse3 = document.querySelector('.false3')
