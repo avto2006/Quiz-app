@@ -65,3 +65,30 @@ span {
     display: none;
     margin-top: 10vh;
 }
+
+
+@media screen and (max-width: 480px) {
+
+   .img {
+    margin-left: 9vh;
+   }
+
+   img {
+    width: 40vh;
+   }
+    
+
+}
+
+
+@media screen and (max-width: 1024px) {
+    
+    
+
+     
+}
+
+
+
+
+

@@ -132,3 +132,5 @@ function func11() {
    result.style.display = 'grid'
    nextBtn5.style.display = 'none';
 }
+
+
