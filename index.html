@@ -11,7 +11,7 @@
     
    <main>
        <img class="img" src="img/javascript-logo-svgrepo-com.svg" alt="">
-       <h2 class="h2">Welcome to the js quiz <br> You have to answer 10 questions.</h2>
+       <h2 class="h2">Welcome to the js quiz <br> You have to answer 5 questions.</h2>
        <button onclick="func1()"  class="startBtn">Start Quiz</button>
 
         <section class="questionsArea">
@@ -26,79 +26,44 @@
               <div class="qst2">
                         <img src="questions/question2.png" alt="">
                    <h3>What will be the result?</h3>
-                   <button onclick="func3()" class="answer false1">5 5</button>
-                   <button onclick="func3()"  class="answer right1">6 5</button>
-                   <button onclick="func3()"  class="answer false2">6 6</button>
-                   <button onclick="func3()"  class="answer false3">5 6</button>
+                   <button onclick="func4()" class="answer false4">5 5</button>
+                   <button onclick="func4()"  class="answer right2">6 5</button>
+                   <button onclick="func4()"  class="answer false5">6 6</button>
+                   <button onclick="func4()"  class="answer false6">5 6</button>
               </div>
               <div class="qst3">
                    <img src="questions/question3.png" alt="">
                    <h3>What will be the result?</h3>
-                   <button class="answer ">"null"</button>
-                   <button class="answer ">"object"</button>
-                   <button class="answer ">"undefined"</button>
-                   <button class="answer ">Error</button>
+                   <button onclick="func6()" class="answer false7">"null"</button>
+                   <button onclick="func6()" class="answer false8">Error</button>
+                   <button onclick="func6()" class="answer false9">"undefined"</button>
+                   <button onclick="func6()" class="answer right3">"Object"</button>
               </div>
               <div class="qst4">
                  <img src="questions/question4.png" alt="">
                    <h3>What will be the result?</h3>
-                   <button class="answer ">[1, 2, 3]</button>
-                   <button class="answer ">[1, 2, 3, 4]</button>
-                   <button class="answer ">Error</button>
-                   <button class="answer ">undefined</button>
+                   <button onclick="func8()" class="answer false10">[1, 2, 3]</button>
+                   <button onclick="func8()" class="answer false11">Error</button>
+                   <button onclick="func8()" class="answer right4">[1, 2, 3, 4]</button>
+                   <button onclick="func8()" class="answer false12">undefined</button>
               </div>
               <div class="qst5">
                  <img src="questions/question5.png" alt="">
                    <h3>What will be the result?</h3>
-                   <button class="answer ">10</button>
-                   <button class="answer ">undefined</button>
-                   <button class="answer ">Error</button>
-                   <button class="answer ">null</button>
+                   <button onclick="func10()" class="answer false13">10</button>
+                   <button onclick="func10()" class="answer right5">undefined</button>
+                   <button onclick="func10()" class="answer false14">Error</button>
+                   <button onclick="func10()" class="answer false15">null</button>
               </div>
-              <div class="qst6">
-                 <img src="questions/question6.png" alt="">
-                   <h3>What will be the result?</h3>
-                   <button class="answer ">true true</button>
-                   <button class="answer ">false false</button>
-                   <button class="answer ">true false</button>
-                   <button class="answer ">false true</button>
-              </div>
-              <div class="qst7">
-                 <img src="questions/question7.png" alt="">
-                   <h3>What will be the result?</h3>
-                   <button class="answer ">0 1 2</button>
-                   <button class="answer ">3 3 3</button>
-                   <button class="answer ">0 0 0</button>
-                   <button class="answer ">Error</button>
-              </div>
-              <div class="qst8">
-                 <img src="questions/question8.png" alt="">
-                   <h3>What will be the result?</h3>
-                   <button class="answer ">"Avto"</button>
-                   <button class="answer ">undefined</button>
-                   <button class="answer ">Error</button>
-                   <button class="answer ">null</button>
-              </div>
-              <div class="qst9">
-                 <img src="questions/question9.png" alt="">
-                   <h3>What will be the result?</h3>
-                   <button class="answer ">10</button>
-                   <button class="answer ">20</button>
-                   <button class="answer ">undefined</button>
-                   <button class="answer ">Error</button>
-              </div>
-              <div class="qst10">
-                 <img src="questions/question10.png" alt="">
-                   <h3>What will be the result?</h3>
-                   <button class="answer ">"", "[object Object]", "[object Object]"</button>
-                   <button class="answer ">"", "[object Object]", ""</button>
-                   <button class="answer ">"[]", "{}", "{}"</button>
-                   <button class="answer ">Error</button>
-              </div>
+             
         </section>
 
         <button onclick="func3()" class="next">Next</button>
-   </main>
+        <button onclick="func5()" class="next nx2">Next</button>
+        <button onclick="func7()" class="next nx3">Next</button>
+        <button onclick="func9()" class="next nx4">Next</button>
+        <button onclick="func9()" class="next nx5">See result</button>
+        
     
     <script src="main.js"></script>
 </body>
