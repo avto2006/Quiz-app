@@ -1,0 +1,19 @@
+
+
+
+.img {
+    width: 20vh;
+    margin-left: 12vh;
+}
+
+main {
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15vh;
+}
+
+.startBtn {
+    
+}
