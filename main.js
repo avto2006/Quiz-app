@@ -41,6 +41,9 @@ const nextBtn3 = document.querySelector('.nx3');
 const nextBtn4 = document.querySelector('.nx4');
 const nextBtn5 = document.querySelector('.nx5');
 
+const result = document.querySelector('.result');
+
+
 
 let counter = 0;
 
@@ -118,4 +121,11 @@ function func10() {
    fallse15.style.backgroundColor = 'red';
    nextBtn4.style.display = 'none';
    nextBtn5.style.display = 'grid';
+}
+
+
+function func11() {
+   qst5.style.display = 'none';
+   result.style.display = 'grid'
+   nextBtn5.style.display = 'none';
 }
